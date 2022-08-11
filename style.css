@@ -41,8 +41,8 @@ footer {
   font-size: 17px;
 }
 
-.text-size-12 {
-  font-size: 12px;
+.text-size-14 {
+  font-size: 14px;
 }
 
 .text-color-gray {
@@ -156,7 +156,7 @@ a:hover {
 }
 
 .grey {
-  color: #282626;
+  color: #282626 !important;
 }
 
 .d-bloc {
