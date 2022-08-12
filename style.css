@@ -108,6 +108,31 @@ a:hover {
   padding: 20px 50px;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+#form_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.form-control {
+  margin: 5px;
+  font-size: 20px;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
