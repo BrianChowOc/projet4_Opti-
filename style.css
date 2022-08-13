@@ -49,6 +49,10 @@ w.text-size-18 {
   color: #fffde7 !important;
 }
 
+.logo-footer {
+  display: flex;
+}
+
 .text-font-weight-600 {
   font-weight: 600;
 }
@@ -106,6 +110,14 @@ a:hover {
 
 .bloc-sm {
   padding: 20px 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .work-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .contact-container {
@@ -366,6 +378,10 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
+}
+
+.form-container {
+  margin: 50px;
 }
 
 #bloc-1-hero h1 {
