@@ -758,7 +758,7 @@ a {
 }
 
 .container {
-  max-width: 1000px;
+  width: 100%;
 }
 
 .hero-bloc-text {
@@ -1082,9 +1082,6 @@ h4 {
   }
   .bloc-xxl,
   .bloc-xl,
-  .bloc-lg {
-    padding: 40px 0;
-  }
   .bloc-sm,
   .bloc-md {
     padding-left: 0;
